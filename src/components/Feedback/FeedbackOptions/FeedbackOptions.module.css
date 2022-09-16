@@ -1,0 +1,16 @@
+.feedbackList {
+    display: flex;
+    gap: 20px;
+}
+
+.feedbackButton {
+    background-color: white;
+    padding: 5px 30px;
+    border: 1 solid black;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.feedbackButton:hover {
+    background-color: rgb(201, 195, 195);
+}

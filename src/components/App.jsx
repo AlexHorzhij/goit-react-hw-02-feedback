@@ -1,3 +1,5 @@
+import { Feedback } from "./Feedback/Fedback";
+
 export const App = () => {
   return (
     <div
@@ -5,12 +7,13 @@ export const App = () => {
         height: '100vh',
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center',
+        alignItems: 'flex-start',
+        paddingTop: 100,
         fontSize: 40,
         color: '#010101'
       }}
     >
-      React homework template
+      <Feedback/>
     </div>
   );
 };
